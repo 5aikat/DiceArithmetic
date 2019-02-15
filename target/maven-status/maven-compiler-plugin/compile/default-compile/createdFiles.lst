@@ -1,0 +1,5 @@
+model\nDs.class
+main.class
+Exception\DiceParserException.class
+Util\diceParser.class
+Util\DiceRoller.class

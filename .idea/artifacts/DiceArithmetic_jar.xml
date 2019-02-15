@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="DiceArithmetic:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/DiceArithmetic_jar</output-path>
+    <root id="archive" name="DiceArithmetic.jar">
+      <element id="module-output" name="DiceArithmetic" />
+    </root>
+  </artifact>
+</component>
