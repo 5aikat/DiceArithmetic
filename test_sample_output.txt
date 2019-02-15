@@ -1,0 +1,103 @@
+---------------------------------
+Pattern to evaluate dice arithmetic : 4D6 + 3D4
+
+ 4d6 -> (expected min=4, max=24, mean=14)
+16 13 12 12 16 
+After 5 random repeats -> estimate min=12, max=16, mean=13.8
+
+Random Roll : 13
+ 3d4 -> (expected min=3, max=12, mean=7.5)
+5 5 8 6 5 
+After 5 random repeats -> estimate min=5, max=8, mean=5.8
+
+Random Roll : 5
+Random outcome result of the dice arithmetic on : "4D6 + 3D4" is -> 18
+---------------------------------
+Pattern to evaluate dice arithmetic : 4D6 + 3D25
+
+Caught exception in pattern : 4D6 + 3D25
+Error parsing "4D6 + 3D25" at offset 10: Expecting 4,6,8,10,12,20 side dices only
+Handling exception and proceeding with the next example
+
+---------------------------------
+Pattern to evaluate dice arithmetic : 0D6 - 1D4
+
+Caught exception in pattern : 0D6 - 1D4
+Error parsing "0D6 - 1D4" at offset 1: Not enough dice.
+Handling exception and proceeding with the next example
+
+---------------------------------
+Pattern to evaluate dice arithmetic : 3D8 - 2D4
+
+ 3d8 -> (expected min=3, max=24, mean=13.5)
+9 11 14 9 12 
+After 5 random repeats -> estimate min=9, max=14, mean=11
+
+Random Roll : 14
+ 2d4 -> (expected min=2, max=8, mean=5)
+2 6 4 5 4 
+After 5 random repeats -> estimate min=2, max=6, mean=4.2
+
+Random Roll : 5
+Random outcome result of the dice arithmetic on : "3D8 - 2D4" is -> 9
+---------------------------------
+Pattern to evaluate dice arithmetic : 3D8 - 2D4 + 4D6
+
+ 3d8 -> (expected min=3, max=24, mean=13.5)
+14 10 10 18 19 
+After 5 random repeats -> estimate min=10, max=19, mean=14.2
+
+Random Roll : 8
+ 2d4 -> (expected min=2, max=8, mean=5)
+6 6 6 4 4 
+After 5 random repeats -> estimate min=4, max=6, mean=5.2
+
+Random Roll : 3
+ 4d6 -> (expected min=4, max=24, mean=14)
+11 14 14 7 12 
+After 5 random repeats -> estimate min=7, max=14, mean=11.6
+
+Random Roll : 15
+Random outcome result of the dice arithmetic on : "3D8 - 2D4 + 4D6" is -> 20
+---------------------------------
+Pattern to evaluate dice arithmetic : 4D11 + 3D4
+
+Caught exception in pattern : 4D11 + 3D4
+Error parsing "4D11 + 3D4" at offset 4: Expecting 4,6,8,10,12,20 side dices only
+Handling exception and proceeding with the next example
+
+---------------------------------
+Pattern to evaluate dice arithmetic : 4D6+3D4
+
+ 4d6 -> (expected min=4, max=24, mean=14)
+12 17 9 13 14 
+After 5 random repeats -> estimate min=9, max=17, mean=13
+
+Random Roll : 11
+ 3d4 -> (expected min=3, max=12, mean=7.5)
+4 6 8 7 5 
+After 5 random repeats -> estimate min=4, max=8, mean=6
+
+Random Roll : 6
+Random outcome result of the dice arithmetic on : "4D6+3D4" is -> 17
+---------------------------------
+Pattern to evaluate dice arithmetic : 4 D 6 + 3D4
+
+Caught exception in pattern : 4 D 6 + 3D4
+Error parsing "4 D 6 + 3D4" at offset 1: Expecting 'D' character.
+Handling exception and proceeding with the next example
+
+---------------------------------
+Pattern to evaluate dice arithmetic : 4d6 + 3D4
+
+ 4d6 -> (expected min=4, max=24, mean=14)
+14 12 17 11 10 
+After 5 random repeats -> estimate min=10, max=17, mean=12.8
+
+Random Roll : 11
+ 3d4 -> (expected min=3, max=12, mean=7.5)
+6 4 4 7 6 
+After 5 random repeats -> estimate min=4, max=7, mean=5.4
+
+Random Roll : 7
+Random outcome result of the dice arithmetic on : "4d6 + 3D4" is -> 18
